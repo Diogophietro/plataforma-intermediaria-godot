@@ -868,7 +868,7 @@ points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
 71/z_index = 0
 
 [sub_resource type="RectangleShape2D" id=25]
-extents = Vector2( 34.5, 9 )
+extents = Vector2( 66, 9 )
 
 [node name="Level_01" type="Node2D"]
 
@@ -892,7 +892,7 @@ position = Vector2( 293, 243 )
 script = ExtResource( 2 )
 
 [node name="Collision" type="CollisionShape2D" parent="fall-zone"]
-position = Vector2( 18, 3 )
+position = Vector2( 34, 3 )
 shape = SubResource( 25 )
 
 [node name="Collision3" type="CollisionShape2D" parent="fall-zone"]
