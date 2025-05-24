@@ -1,7 +1,9 @@
 extends CollisionShape2D
 
-
-export(NodePath) onready var player_path = get_node(player_path)
+onready var player_ref= get_parent().get_parent()
+export(NodePath) var player_path
 
 func _ready():
-	print(player_path.name)
+	print(player_path)
+	
+	

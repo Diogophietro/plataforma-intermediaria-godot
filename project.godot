@@ -8,16 +8,6 @@
 
 config_version=4
 
-_global_script_classes=[ {
-"base": "Node2D",
-"class": "player",
-"language": "GDScript",
-"path": "res://learn/onready.gd"
-} ]
-_global_script_class_icons={
-"player": ""
-}
-
 [application]
 
 config/name="plataforma2dIntermediarioSab13h"
@@ -94,7 +84,6 @@ common/enable_pause_aware_picking=true
 
 [rendering]
 
-quality/driver/driver_name="GLES2"
 vram_compression/import_etc=true
 vram_compression/import_etc2=false
 environment/default_environment="res://default_env.tres"
